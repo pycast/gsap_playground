@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(305deg, hsl(151,59%,76%),hsl(202.429,59%,76%),hsl(253.857,59%,76%),hsl(305.286,59%,76%),hsl(356.714,59%,76%),hsl(48.143,59%,76%),hsl(99.571,59%,76%));
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 10vw;
+    color: #333;
+    font-weight: 100;
+}
+
+.cercle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #222;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    cursor: pointer;
+    left: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    position: absolute;
+    transform: translate(0%, -50%) scale(0);
+    top: 55%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.f {
+    left: 0%;
+    font-size: 15em;
+}
+
+.e {
+    left: 25%;
+    font-size: 15em;
+}
+
+.u {
+    left: 50%;
+    font-size: 15em;
+}
+
+.r {
+    left: 75%;
+    font-size: 15em;
+}
